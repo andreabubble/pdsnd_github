@@ -25,10 +25,9 @@ def get_filters():
 
     while True:
         try:
-            city = input("Do you want to explore data from Chicago, New York City or Washington?\n")
+            city = input("Do you want to explore data from Chicago, New York City or Washington?\n").lower()
 
-            if city.lower() in CITY_DATA:
-                city = city.lower()
+            if city in CITY_DATA:
                 break
 
         except:
@@ -37,12 +36,10 @@ def get_filters():
 
     while True:
         try:
-            month = input("What month(s) do you want to explore? Options: all, January, February, March, April, June)\n")
-            if month.lower() in months:
-                month = month.lower()
+            month = input("What month(s) do you want to explore? Options: all, January, February, March, April, June)\n").lower()
+            if month in months:
                 break
-            elif month.lower() == 'all':
-                month = month.lower()
+            elif == 'all':
                 break
         except:
             print("This is not a valid input for month.")
@@ -50,12 +47,10 @@ def get_filters():
 
     while True:
         try:
-            day = input("What day(s) do you want to explore? Options: all, Monday, Tuesday, Wednesday, Saturday, Sunday)\n")
-            if day.lower() in days:
-                day = day.lower()
+            day = input("What day(s) do you want to explore? Options: all, Monday, Tuesday, Wednesday, Saturday, Sunday)\n").lower()
+            if day in days:
                 break
-            elif day.lower() == 'all':
-                day = day.lower()
+            elif == 'all':
                 break
 
         except:
