@@ -7,7 +7,7 @@ July 17, 2021
 Andrea's Project 3 submission for the Programming for Data Science Nano Degree project
 
 ### Description
-This project analyses data provided by Motivate, a bike share system provider for many major cities in the United States, to uncover bike share usage patterns. It compares the system usage between three large cities: Chicago, New York City, and Washington, DC.
+This project analyses data provided by **Motivate**, a **bike share system provider** for many major cities in the United States, to uncover bike share usage patterns. It compares the system usage between three large cities: Chicago, New York City, and Washington, DC.
 
 #### Statistics Computed
 Bike share use in Chicago, New York City, and Washington by computing a variety of descriptive statistics. This project provides the following information:
