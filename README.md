@@ -40,4 +40,4 @@ Bike share use in Chicago, New York City, and Washington by computing a variety 
 bikeshare.py
 
 ### Credits
-It's important to give proper credit. Add links to any repo that inspired you or blogposts you consulted.
+This project analyses data provided by Motivate, a bike share system provider for many major cities in the United States
